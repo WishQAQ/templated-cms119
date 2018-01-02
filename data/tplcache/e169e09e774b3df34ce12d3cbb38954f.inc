@@ -1,0 +1,1 @@
+<a href="[field:typelink/]" title='[field:typename/]'>[详情]</a>

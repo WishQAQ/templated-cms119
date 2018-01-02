@@ -1,0 +1,131 @@
+﻿/* 织梦58（dede58.com）做最好的织梦整站模板下载网站 */
+/*@Style Reset*/
+body, div, dl, dt, dd, ul, ol, li, pre, code, form, fieldset, legend, input, button, textarea, blockquote, h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	font-family: "宋体";
+}
+p {
+	margin: 0;
+	padding: 0;
+}
+html button::-moz-focus-inner {
+border-color:transparent!important;
+}
+html {
+	overflow-x: hidden;
+}
+input, button, textarea, select, optgroup, option {
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+}
+ul, li, dl, dt, dd, ol {
+	display: block;
+	list-style: none;
+}
+fieldset, img {
+	border: 0;
+}
+iframe {
+	background-image: none;
+}
+hr {
+	border: 0 #ccc solid;
+	border-top-width: 1px;
+	clear: both;
+	height: 0;
+}
+.clear {
+	background: none;
+	border: 0;
+	clear: both;
+	display: block;
+	float: none;
+	font-size: 0;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+.input {
+	line-height: 30px;
+	height: 30px;
+	border: 1px solid #999999;
+	padding: 2px;
+}
+.checkbox {
+	line-height: 13px;
+	height: 13px;
+	width: 13px;
+	padding: 0px;
+	margin: 0px;
+}
+.absolute {
+	position: absolute;
+}
+.relative {
+	position: relative;
+}
+/*@Forbidden chrome autoAdjust fontSize*/
+html {
+	-webkit-text-size-adjust: none;
+}
+/*@Link*/
+a {
+	text-decoration: none;
+	outline: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+/*@Float*/
+.fl {
+	float: left;
+	display: inline;
+}
+.fr {
+	float: right;
+	display: inline;
+}
+/*@Padding*/
+.pad_0p {
+	padding: 0;
+}
+.pad_b10p {
+	padding-bottom: 10px;
+}
+/*@Page width*/
+.w980 {
+	width: 980px;
+	margin: 0 auto;
+}
+.w1000 {
+	width: 1000px;
+	margin: 0 auto;
+}
+/*@Margin*/
+.mar_0p {
+	margin: 0px;
+}
+.mar_t10p {
+	margin-top: 10px;
+}
+.mar_l30p {
+	margin-left: 30px;
+}
+/*@Height*/
+.h105 {
+	height: 105px;
+}
+/*clear-fix*/
+.clear-fix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	font-size: 0;
+	clear: both;
+	visibility: hidden;
+}

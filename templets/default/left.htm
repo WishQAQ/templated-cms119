@@ -1,0 +1,43 @@
+<div class="pmain-b fl">
+  <div class="pcla"> {dede:type typeid='2'}
+    <h2 class="pnews-tl">[field:typename/]</h2>
+    {/dede:type}
+    <div class="pcla-con">
+      <ul>
+        {dede:channel type='son' typeid='2' currentstyle="
+        <li class='pcla-son'><a href='~typelink~'>~typename~</a></li>
+        "}
+        <li class="pcla-son"> <a href='[field:typeurl/]' title="[field:typename/]">[field:typename/]</a> 
+          <!--<ul>
+              <li><a href=""></a></li>
+           </ul>--> 
+        </li>
+        {/dede:channel}
+      </ul>
+    </div>
+  </div>
+  <!--pcla-->
+  <div class="pnews mar_t25p"> {dede:type typeid='13'}
+    <h2 class="pnews-tl">[field:typename/]</h2>
+    {/dede:type}
+    <div class="pnews-con">
+      <ul>
+        {dede:arclist typeid='13' row='5' titlelen='50' orderby='pubdate'}
+        <li><a href="[field:arcurl/]" title="[field:title/]">[field:title/]</a></li>
+        {/dede:arclist}
+      </ul>
+    </div>
+  </div>
+  <!--pnews-->
+  <div class="pcontact mar_t25p"> {dede:type typeid='12'}
+    <h2 class="pcontact-tl">[field:typename/]</h2>
+    {/dede:type}
+    <div class="pcontact-con">
+      <div class="pcontact-son"> <span class="A">地址：{dede:global.cfg_add/}</span> </div>
+      <div class="pcontact-son"> <span class="B">电话：{dede:global.cfg_tel/}</span> </div>
+      <div class="pcontact-son"> <span class="C">传真：{dede:global.cfg_fax/}</span> </div>
+      <div class="pcontact-son"> <span class="D">邮箱：{dede:global.cfg_email/}</span> </div>
+    </div>
+  </div>
+  <!--pnews--> 
+</div>

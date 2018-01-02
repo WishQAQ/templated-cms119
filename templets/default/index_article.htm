@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+<LINK href="/skin/css/global.css" rel=stylesheet>
+<LINK href="/skin/css/css.css" rel=stylesheet>
+<script language="JavaScript" type="text/javascript" src="/skin/js/jquery.js"></script>
+<script language="JavaScript" type="text/javascript" src="/skin/js/common.js"></script>
+<script language="JavaScript" type="text/javascript" src="/skin/js/main.js"></script>
+<script language="JavaScript" type="text/javascript" src="/skin/js/liscroll_gd.js"></script>
+<script language="JavaScript" type="text/javascript" src="/skin/js/ac_runactivecontent.js"></script>
+<script language="JavaScript" type="text/javascript" src="/skin/js/paging.js"></script>
+<!--[if IE 6]>
+	<script type="text/javascript" src="/skin/js/dd_belatedpng.js"></script>
+    <script type="text/javascript">
+    	DD_belatedPNG.fix(".png,.png img");
+    </script>
+<![endif]-->
+
+</head>
+<body>
+{dede:include filename="head.htm"/} 
+<!--header-->
+
+<div class="pmain w980">
+  <div class="pmain-a fr">
+    <div class="pmain-tl">
+      <h2 class="png fl">{dede:field name='typeid' function="GetTopTypename(@me)"/}</h2>
+      <div class="more fr">您的当前位置：{dede:field name='position'/}</div>
+    </div>
+    <!--pmain-tl-->
+    <div class="pAC"> {dede:field.content/} </div>
+  </div>
+  <!--pmain-a--> 
+  {dede:include filename="left.htm"/} 
+  <!--pmain-b-->
+  
+  <div class="clear"></div>
+</div>
+{dede:include filename="footer.htm"/} 
+<script type="text/javascript" id="bdshare_js" data="type=tools" ></script> 
+<script type="text/javascript" id="bdshell_js"></script> 
+<script type="text/javascript">
+	document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + new Date().getHours();
+</script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<div class="header">
+  <div class="top">
+    <div class="w980">
+      <div class="logo png fl"><a href="/" title = "{dede:global.cfg_webname/}"><img src="/skin/images/img1.png" width="182" height="104"/></a></div>
+      <form class="t_srh png fr" method="post" action="/plus/search.php"  name="formsearch">
+        <input type="hidden" name="kwtype" value="0" />
+        <input class="s_txt" type="text" name="q" id="q" value="请输入搜索关键词">
+        <input class="s_btn png" type="image" name="imageField" id="imageField" src="/skin/images/bg7.jpg"//>
+      </form>
+    </div>
+  </div>
+  <!--top-->
+  <div class="fla png"> <img src="/skin/images/img2.png" width="1422" height="426"/> </div>
+  <!--suggest flash-->
+  <div class="header-a w980">
+    <div class="notice w980">
+      <h2 class="n_tl fl">最新公告</h2>
+      <div id="n_con">
+        <div id="n_c_in">
+          <p id="n1p"><a  href="gg.php" style = "color:#7fa1bd;" title="{dede:global.cfg_webname/}">欢迎光临某某生产设备有限公司！&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></p>
+          <p id="n2p"></p>
+        </div>
+      </div>
+    </div>
+    <!--notice-->
+    <ul class="nav w980 png">
+      <li class="n_son"><a href="/" title = "网站首页">网站首页</a></li>
+      {dede:channel type='top' currentstyle="
+      <li class='n_son'><a href='~typelink~'>~typename~</a></li>
+      "}
+      <li class="n_son"><a href="[field:typeurl/]" title="[field:typename/]">[field:typename/]</a></li>
+      {/dede:channel}
+    </ul>
+    <!--nav--> 
+  </div>
+  <!--header-a--> 
+</div>
